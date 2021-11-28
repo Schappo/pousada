@@ -4,7 +4,7 @@
 
 .section {
   height: 94.3vh;
-  background-color: indigo;
+
 }
 
 .nav-bar {
@@ -15,7 +15,7 @@
   color: #333;
 }
 
-.introduction {
+.home {
   padding: 50px;
   border-bottom: 1px solid #f7f7f7;
 }
@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.introduction-logo {
+.home-logo {
   padding-top: 5px;
 }
 

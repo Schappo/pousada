@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Image, Row, Col } from 'react-bootstrap'
 import Logo from '../../assets/img/logo/logo.png'
 
-const Introduction: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <>
       <div>
-        <Container fluid className="flex-center introduction">
+        <Container fluid className="flex-center home">
           <Image src={Logo} className="img-presentation" alt="Residencial Schappo" />
         </Container>
       </div>
@@ -24,4 +24,4 @@ const Introduction: React.FC = () => {
   )
 }
 
-export default Introduction
+export default Home

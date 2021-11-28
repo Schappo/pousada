@@ -3,6 +3,10 @@ import { Container, Image, Row, Col, Card, Carousel } from 'react-bootstrap'
 import Logo from '../../assets/img/logo/logo.png'
 import FaxadaRS from '../../assets/img/rs-wp/1.jpg'
 import Ap01 from '../../assets/img/rs-wp/schappo-apto1-1.jpg'
+import Ap02 from '../../assets/img/rs-wp/apto2-1.jpg'
+import Ap03 from '../../assets/img/rs-wp/apto3-1.jpg'
+import Ap04 from '../../assets/img/rs-wp/apto4-1.jpg'
+import Ap05 from '../../assets/img/rs-wp/apto5-1.jpg'
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +20,7 @@ const Home: React.FC = () => {
             <Col>
               <Row>
                 <Col>
-                  <Card style={{ width: '18rem' }}>
+                  <Card>
                     <Carousel>
                       <Carousel.Item>
                         <Image
@@ -32,10 +36,38 @@ const Home: React.FC = () => {
                           alt="Third slide"
                         />
                       </Carousel.Item>
+                      <Carousel.Item>
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={Ap02}
+                          alt="Third slide"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={Ap03}
+                          alt="Third slide"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={Ap04}
+                          alt="Third slide"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={Ap05}
+                          alt="Third slide"
+                        />
+                      </Carousel.Item>
                     </Carousel>
-                    <Card.Body>
+                    {/* <Card.Body>
                       <Card.Title>Ver todos os apartamentos</Card.Title>
-                    </Card.Body>
+                    </Card.Body> */}
                   </Card>
                 </Col>
                 <Col>

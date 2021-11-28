@@ -15,11 +15,6 @@
   color: #333;
 }
 
-.home {
-  padding: 50px;
-  border-bottom: 1px solid #f7f7f7;
-}
-
 .flex-center {
   display: flex;
   flex-direction: column;
@@ -27,31 +22,6 @@
   align-items: center;
 }
 
-.home-logo {
-  padding-top: 5px;
-}
-
-.intro-rs {
-  color: #595959;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 3.5px;
-  display: block;
-}
-
-.intro-slogan {
-  display: block;
-  font-size: 20px;
-  line-height: 1rem;
-  font-weight: 600;
-  color: #3d3d3d;
-  padding-top: 10px;
-}
-
-.intro {
-  background-color: #f7f7f7;
-  height: 400px;
-}
 
 .app {
   height: 100vh;

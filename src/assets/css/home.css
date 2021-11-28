@@ -1,0 +1,44 @@
+
+.home-logo {
+  padding-top: 5px;
+}
+
+.home-rs {
+  color: #595959;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  display: block;
+}
+
+.slogan {
+  background-color: #f1f1f1;
+}
+
+.home-slogan {
+  display: block;
+  font-size: 20px;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  padding-top: 10px;
+}
+
+.home-el {
+  height: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-options {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.home {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}

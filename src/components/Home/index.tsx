@@ -1,6 +1,8 @@
 import React from 'react'
-import { Button, Container, Image, Row, Col, Card, Carousel } from 'react-bootstrap'
+import { Container, Image, Row, Col, Card, Carousel } from 'react-bootstrap'
 import Logo from '../../assets/img/logo/logo.png'
+import FaxadaRS from '../../assets/img/rs-wp/1.jpg'
+import Ap01 from '../../assets/img/rs-wp/schappo-apto1-1.jpg'
 
 const Home: React.FC = () => {
   return (
@@ -17,50 +19,22 @@ const Home: React.FC = () => {
                   <Card style={{ width: '18rem' }}>
                     <Carousel>
                       <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src="holder.js/800x400?text=First slide&bg=373940"
-                          alt="First slide"
-                        />
-                        <Carousel.Caption>
-                          <h3>First slide label</h3>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src="holder.js/800x400?text=Second slide&bg=282c34"
-                          alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                          <h3>Second slide label</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src="holder.js/800x400?text=Third slide&bg=20232a"
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={FaxadaRS}
                           alt="Third slide"
                         />
-
-                        <Carousel.Caption>
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <Image
+                          className="d-block w-100 p-2"
+                          src={Ap01}
+                          alt="Third slide"
+                        />
                       </Carousel.Item>
                     </Carousel>
                     <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        {
-                          `Some quick example text to build on the card title and make up the bulk of
-                          the card's content.`
-                        }
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
+                      <Card.Title>Ver todos os apartamentos</Card.Title>
                     </Card.Body>
                   </Card>
                 </Col>
